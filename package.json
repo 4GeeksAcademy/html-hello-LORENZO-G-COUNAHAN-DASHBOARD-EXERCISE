@@ -1,0 +1,26 @@
+{
+  "name": "html-hello-lorenzo-g-counahan-dashboard-exercise",
+  "version": "1.0.0",
+  "description": "The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./styles.css --minify",
+    "watch:css": "npx @tailwindcss/cli -i ./src/input.css -o ./styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4GeeksAcademy/html-hello-LORENZO-G-COUNAHAN-DASHBOARD-EXERCISE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/4GeeksAcademy/html-hello-LORENZO-G-COUNAHAN-DASHBOARD-EXERCISE/issues"
+  },
+  "homepage": "https://github.com/4GeeksAcademy/html-hello-LORENZO-G-COUNAHAN-DASHBOARD-EXERCISE#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
